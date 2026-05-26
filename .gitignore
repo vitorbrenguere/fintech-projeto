@@ -1,0 +1,61 @@
+# =============================================
+# BACKEND — Spring Boot / Maven
+# =============================================
+fintech/target/
+fintech/.mvn/wrapper/maven-wrapper.jar
+fintech/HELP.md
+
+# Credenciais — nunca subir em repositório público
+fintech/src/main/resources/application.properties
+
+# IDE — IntelliJ
+fintech/.idea/
+fintech/*.iws
+fintech/*.iml
+fintech/*.ipr
+
+# IDE — Eclipse / STS
+fintech/.apt_generated
+fintech/.classpath
+fintech/.factorypath
+fintech/.project
+fintech/.settings
+fintech/.springBeans
+fintech/.sts4-cache
+
+# IDE — NetBeans
+fintech/nbproject/private/
+fintech/nbbuild/
+fintech/dist/
+fintech/nbdist/
+fintech/.nb-gradle/
+fintech/build/
+
+# =============================================
+# FRONTEND — React / Vite / Node
+# =============================================
+fintech-frontend/node_modules/
+fintech-frontend/dist/
+fintech-frontend/dist-ssr/
+fintech-frontend/*.local
+
+# Logs
+fintech-frontend/logs/
+fintech-frontend/*.log
+fintech-frontend/npm-debug.log*
+fintech-frontend/yarn-debug.log*
+fintech-frontend/yarn-error.log*
+fintech-frontend/pnpm-debug.log*
+
+# =============================================
+# COMUM — IDE e Sistema Operacional
+# =============================================
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+Thumbs.db

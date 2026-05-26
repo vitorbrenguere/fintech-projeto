@@ -1,0 +1,12 @@
+spring.application.name=fintech
+
+# Configurações do Banco de Dados Oracle
+spring.datasource.url=jdbc:oracle:thin:@oracle.fiap.com.br:1521:ORCL
+spring.datasource.username=SEU_RM_AQUI
+spring.datasource.password=SUA_SENHA_AQUI
+
+# Configurações do Hibernate / JPA
+spring.datasource.driver-class-name=oracle.jdbc.OracleDriver
+spring.jpa.database-platform=org.hibernate.dialect.OracleDialect
+spring.jpa.show-sql=true
+spring.jpa.hibernate.ddl-auto=none
