@@ -1,4 +1,4 @@
-# Fintech FIAP — Gestão financeira integrada
+# Fintech FIAP — Gestão Financeira Integrada
 
 Aplicação de gestão financeira pessoal desenvolvida como projeto integrador da FIAP.  
 Permite cadastrar, consultar, editar e excluir **Receitas**, **Despesas** e **Investimentos** através de uma interface web conectada a uma API REST Java com banco de dados Oracle.
