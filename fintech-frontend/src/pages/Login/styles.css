@@ -1,0 +1,159 @@
+* { box-sizing: border-box; }
+body { margin: 0; padding: 0; }
+
+.login-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+    url('/11254.jpg') center / cover no-repeat;
+  background-color: #050d1a;
+}
+
+.login-card {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 380px;
+}
+
+.login-brand {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.login-logo {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px auto;
+}
+
+.login-brand__subtitle {
+  font-size: 24px;
+  color: #868e96;
+  margin: 0;
+}
+
+.input-block {
+  margin-bottom: 16px;
+}
+
+.input-block label {
+  display: block;
+  margin-bottom: 6px;
+  color: #495057;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.input-block input {
+  width: 100%;
+  padding: 11px 14px;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  background-color: #fff;
+  color: #15342d;
+  font-size: 14px;
+  box-sizing: border-box;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.input-block input:focus {
+  outline: none;
+  border-color: #00838f;
+  box-shadow: 0 0 0 3px rgba(0, 131, 143, 0.12);
+}
+
+.btn-submit {
+  width: 100%;
+  padding: 12px;
+  background-color: #00838f;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 8px;
+  transition: background-color 0.2s;
+}
+
+.btn-submit:hover {
+  background-color: #006064;
+}
+
+.login-erro {
+  font-size: 13px;
+  color: #c92a2a;
+  margin: -4px 0 12px 0;
+  text-align: center;
+}
+
+.btn-link {
+  display: block;
+  width: 100%;
+  background: none;
+  border: none;
+  color: #868e96;
+  font-size: 13px;
+  cursor: pointer;
+  margin-top: 12px;
+  padding: 4px 0;
+  text-align: center;
+  transition: color 0.2s;
+}
+
+.btn-link:hover { color: #00838f; }
+
+.login-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #f1f3f5;
+  font-size: 13px;
+  color: #868e96;
+}
+
+.btn-link-primary {
+  background: none;
+  border: none;
+  color: #00838f;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0;
+  transition: color 0.2s;
+}
+
+.btn-link-primary:hover { color: #006064; }
+
+.esqueci-info {
+  font-size: 13px;
+  color: #868e96;
+  margin: 0 0 20px 0;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.senha-recuperada {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: #e6f7f8;
+  border: 1px solid #00838f;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 14px;
+  color: #00838f;
+  margin-bottom: 12px;
+}

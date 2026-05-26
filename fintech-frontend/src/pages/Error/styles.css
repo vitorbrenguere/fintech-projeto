@@ -1,0 +1,86 @@
+.error-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f2f5;
+  padding: 24px;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.error-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 48px 40px;
+  max-width: 420px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.error-logo {
+  width: 160px;
+  height: auto;
+  margin: 0 auto 32px;
+  display: block;
+}
+
+.error-code {
+  font-size: 72px;
+  font-weight: 800;
+  color: #00838f;
+  margin: 0 0 8px 0;
+  letter-spacing: -2px;
+  line-height: 1;
+}
+
+.error-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1a1d1f;
+  margin: 0 0 12px 0;
+}
+
+.error-sub {
+  font-size: 14px;
+  color: #868e96;
+  margin: 0 0 32px 0;
+  line-height: 1.6;
+}
+
+.error-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.btn-error-primary {
+  background-color: #00838f;
+  color: #ffffff;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btn-error-primary:hover {
+  background-color: #006064;
+}
+
+.btn-error-secondary {
+  background-color: #f1f3f5;
+  color: #495057;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btn-error-secondary:hover {
+  background-color: #e9ecef;
+}

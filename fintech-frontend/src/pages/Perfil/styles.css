@@ -1,0 +1,138 @@
+.perfil-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 128px);
+}
+
+.perfil-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 48px 40px;
+  width: 100%;
+  max-width: 440px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.perfil-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #e67700, #f89d3b);
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.perfil-heading {
+  text-align: center;
+}
+
+.perfil-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1a1d1f;
+  margin: 0 0 4px 0;
+}
+
+.perfil-sub {
+  font-size: 13px;
+  color: #868e96;
+  margin: 0;
+}
+
+.perfil-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.perfil-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.perfil-field label {
+  font-size: 13px;
+  font-weight: 500;
+  color: #495057;
+}
+
+.perfil-field input {
+  padding: 10px 12px;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  font-size: 15px;
+  color: #1a1d1f;
+  background: #fff;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.perfil-field input:focus {
+  outline: none;
+  border-color: #00838f;
+  box-shadow: 0 0 0 3px rgba(0, 131, 143, 0.12);
+}
+
+.perfil-hint {
+  font-size: 12px;
+  color: #adb5bd;
+}
+
+.btn-save {
+  background-color: #00838f;
+  color: #ffffff;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  width: 100%;
+}
+
+.btn-save:hover { background-color: #006064; }
+
+.btn-save.saved {
+  background-color: #2f9e44;
+  cursor: default;
+}
+
+.btn-logout {
+  background: none;
+  border: 1px solid #dee2e6;
+  color: #868e96;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  width: 100%;
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.btn-logout:hover {
+  border-color: #c92a2a;
+  color: #c92a2a;
+}
+
+@media (max-width: 768px) {
+  .perfil-wrapper {
+    align-items: flex-start;
+    min-height: unset;
+  }
+
+  .perfil-card {
+    padding: 32px 24px;
+  }
+}
